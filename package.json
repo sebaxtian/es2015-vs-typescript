@@ -1,0 +1,32 @@
+{
+  "name": "es2015-vs-typescript",
+  "version": "1.0.0",
+  "description": "Uso de ES2015 y TypeScript, configuración usando Babel y Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebaxtian/es2015-vs-typescript.git"
+  },
+  "keywords": [
+    "ES2015",
+    "TypeScript",
+    "Babel",
+    "Webpack"
+  ],
+  "author": "Sebastian Rios Sabogal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebaxtian/es2015-vs-typescript/issues"
+  },
+  "homepage": "https://github.com/sebaxtian/es2015-vs-typescript#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  }
+}
